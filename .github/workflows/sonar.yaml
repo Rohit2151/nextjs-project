@@ -33,5 +33,7 @@ jobs:
             -Dsonar.projectKey=nextjs-project \
             -Dsonar.organization=Rohit2151 \
             -Dsonar.sources=. \
-            -Dsonar.host.url=https://sonar.codematrix.space \
+            -Dsonar.host.url=https://sonar.code
+            matrix.space \
             -Dsonar.login=${SONAR_TOKEN}
+## Testing for protected branch
